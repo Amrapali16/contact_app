@@ -16,7 +16,7 @@
     }
 
     $flag=0;
-
+    // okay i m doing well
     if(isset($_POST['submit']))
     {
       $name=$_POST['uName'];
