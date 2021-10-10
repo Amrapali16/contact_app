@@ -1,0 +1,88 @@
+.bg-back
+{
+    background-color: aqua;
+}
+.s-form
+{
+    width:60% !important;
+    margin:auto;
+    
+}
+body
+{
+    background-image: url("images/back1.jpg") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    
+}
+
+.d-block
+{
+    height:40%;
+}
+
+
+/* Footer Code  */
+.row{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+
+    flex-basis: 25%;
+    padding:10px;
+}
+.logo
+{
+    width:80px;
+    margin-bottom: 30px;
+}
+.col h3
+{
+    width:fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.ul li
+{
+   list-style: none;
+   margin-bottom: 12px;
+}
+.ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+.col form
+{
+    width: 90%;
+}
+.copyright
+{
+    text-align:center;
+}
+
+#abc
+{
+    margin-right: 45%;
+}
+
+.useprofile
+{
+    height:180px;
+}
+
+
+
+
+
+
+
+
+
