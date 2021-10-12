@@ -119,7 +119,7 @@ if(isset($_POST['sign']))
     <form class="s-form" action="" method="POST" enctype="multipart/form-data">
 
     <div class="mb-3">
-    <label  class="form-label">Email address:</label>
+    <label  class="form-label">Email address: <sup class="text-danger">*</sup></label>
     <input type="email" class="form-control" name="email" >
     </div>
     <?php
@@ -133,7 +133,7 @@ if(isset($_POST['sign']))
 ?>
 
     <div class="mb-3">
-    <label class="form-label">Passward</label>
+    <label class="form-label">Passward<sup class="text-danger">*</sup></label>
     <input type="passward" class="form-control" name="pass" >
     </div>
 

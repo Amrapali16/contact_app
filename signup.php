@@ -103,8 +103,9 @@
 <div class="container mt-3">
     <form class="s-form" action="" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
-    <img src="https://img.icons8.com/ios-glyphs/30/4a90e2/user-male-circle.png" width="40px" height="40px"/>
-    <label  class="form-label">Select profile photo :<sup class="text-info">*</sup> </lable>
+    <h1 class="profile12 text-center"><img src="https://img.icons8.com/fluency/48/4a90e2/user-male-circle.png"/>User Account</h1>
+    <img src="https://img.icons8.com/fluency/48/000000/images-folder.png"/>
+    <label  class="form-label">
     <input type="file" class="form-control" name="profile_photo">
     </div>
 
@@ -121,7 +122,7 @@
     ?>
 
     <div class="mb-3">
-    <label  class="form-label">Full Name<sup class="text-info">*</sup></label>
+    <label  class="form-label">Full Name<sup class="text-danger">*</sup></label>
     <input type="text" class="form-control"  name="fullname" >
     </div>
 
@@ -139,7 +140,7 @@
     
 
     <div class="mb-3">
-    <label  class="form-label">Email address<sup class="text-info">*</sup></label>
+    <label  class="form-label">Email address<sup class="text-danger">*</sup></label>
     <input type="email" class="form-control" name="email">
     </div>
 
@@ -157,7 +158,7 @@
     
 
     <div class="mb-3">
-    <label  class="form-label">Mobile Number<sup class="text-info">*</sup></label>
+    <label  class="form-label">Mobile Number<sup class="text-danger">*</sup></label>
     <input type="tel" class="form-control" name="mobile">
     </div>
 
@@ -175,7 +176,7 @@
     
      
     <div class="mb-3">
-    <label class="form-label">Passward <sup class="text-info">*</sup></label>
+    <label class="form-label">Passward <sup class="text-danger">*</sup></label>
     <input type="passward" class="form-control" name="pass" >
     </div>
 
@@ -193,7 +194,7 @@
     
 
     <div class="mb-3">
-    <label  class="form-label">Conform Passward <sup class="text-info">*</sup></label>
+    <label  class="form-label">Conform Passward <sup class="text-danger">*</sup></label>
     <input type="passward" class="form-control" name="conf_pass" >
     </div>
 

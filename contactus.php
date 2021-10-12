@@ -7,7 +7,7 @@
 
 <?php  include('components/navbar.php'); ?>
 
-<div class="shadow-lg p-5 mb-5 bg-secondary rounded text-center text-danger"><h3>Feature</h3></div>
+<div class="shadow-lg p-5 mb-5 bg-secondary rounded text-center text-danger"><h3><b>Feature</h3></b></div>
 
 <div class="container">
 
@@ -29,9 +29,12 @@
     <h2 class="cardm text-danger">Manage and Share Contacts</h2>
     Easily create and manage contacts in user-friendly interface of ContactBook. Organize contacts in relevant Groups so that you can share them with your coworkers. Shared contacts will be available to your team members instantly.
     Shared Contacts for Gmail® brings contact information to you — wherever you are. Never search for your contacts' details again: Your team can now access a centralized contact base from anywhere. When you enter a new customer to your contact list, your team members will have it in their address book instantly.
-
+    
+    <img src="images/contact5.png" width="770" height="389" class="colld mt-3 mb-3 ">
   </div>
+ 
   </div>
+  
 </div>
 
 <p class="collp  mt-5">
