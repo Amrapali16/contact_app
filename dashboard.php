@@ -108,7 +108,7 @@
 
       echo '</div>
       <div class="modal-footer">
-        <a href="deletecontact.php?q='.$row['userID'].'" class="text-decoration-none btn btn-danger">Delete</a>
+        <a onclick="return confirm("Do you want to delete this contact?")" href="deletecontact.php?q='.$row['userID'].'&f='.$row['userprofile'].'" class="text-decoration-none btn btn-danger">Delete</a>
         <a href="editcontact.php" class="text-decoration-none btn btn-success">Edit</a>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
      
